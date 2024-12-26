@@ -64,3 +64,8 @@ div:hover a{
  
   position: center;
 }
+
+h3:hover a{
+  background: #FF0900;
+  color: #fff;
+}
