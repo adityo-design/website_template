@@ -40,8 +40,8 @@ li a{
   text-decoration: none;
   
 }
-div{
-  background: #20C7A0;
+.ok{
+  background: #2697D5;
   padding: 5px 20px;
   margin-top: 5px;
   flex-basis: 50%;
@@ -72,4 +72,13 @@ footer{
 
 iframe{
   height: 200px;
+}
+.pass{
+  justify-content: center;
+  align-items: center;
+  display:inline-flex;
+  height: 100vh;
+  width: 100%;
+  background: #2697D5;
+  padding: 0 50px;
 }
