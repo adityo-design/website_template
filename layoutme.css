@@ -76,9 +76,10 @@ iframe{
 .pass{
   justify-content: center;
   align-items: center;
-  display:inline-flex;
+  display:inline-block;
   height: 100vh;
   width: 100%;
   background: #2697D5;
-  padding: 0 50px;
+  padding: 0 40%;
+  padding-top: 45vh ;
 }

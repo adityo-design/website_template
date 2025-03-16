@@ -10,11 +10,12 @@
             // পাসওয়ার্ড চেক করার ফাংশন
             function checkPassword() {
                 var password = document.getElementById("password").value;
-                if (password === "adityowebsite") {  // আপনার পাসওয়ার্ড এখানে লিখুন
+                if (password === "adityo") {  // আপনার পাসওয়ার্ড এখানে লিখুন
                     document.getElementById("popup").style.display = "none"; // পপ-আপ লুকাবে
                     document.getElementById("content").style.display = "block"; // মূল কন্টেন্ট দেখাবে
                 } else {
-                    alert("❌Wrong Password.Try Again:");
+                  document.getElementById("error").innerHTML = "❌Wrong Password.Try Again!";
+                   /* alert("❌Wrong Password.Try Again:");*/
                 }
             }
 
@@ -30,8 +31,8 @@
         <h2>INPUT PASSWORD</h2>
         <input type="password" id="password" placeholder="PASSWORD">
         <button id="loginButton">LogIn</button>
+        <p id="error"></p>
     </div>
-
     <!-- মূল কন্টেন্ট (পাসওয়ার্ড দিলে দেখাবে) -->
     <div id="content" style="display: none;">
         <header>
