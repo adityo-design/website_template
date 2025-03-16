@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+header {
+  background: #34334B;
+  color: #FFFFFF;
+  width: 100%;
+  height: 15vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  display: inline;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97%;
+  height: vh;
+  margin: 0 3%;
+  
+}
+
+.child {
+  margin: 2vh 3%;
+  background: #118773;
+  width: 44%;
+  height: 25vh;
+  /* text-align: center; */
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.child:hover {
+  background: #D022A7;
+  transition: 1s;
+  font-size: 35px;
+}
+
+.header {
+  display: flex;
+  background: #34334B;
+}
+
+.ssc li {
+  display: inline-flex;
+  margin: 0;
+  width: 100%;
+}
+
+.ssc {
+  width: 100%;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  display: flex;
+}
+
+.ssc li a {
+  background: #00FF37;
+  width: 100%;
+  padding: 15% 5%;
+  border-radius: 5%;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+  margin: 2%;
+  font-size: 80%;
+}
+
+.s {
+  text-align: center;
+  margin: 0%;
+  font-family: monospace;
+  color: #fff;
+  font-size: 100%;
+}
+
+.cls {
+  justify-content: center;
+  align-items: center;
+}
+
+.lul li a {
+  width: 100%;
+  height: 10vh;
+  background: #45312D;
+  margin: 2% 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: fantasy;
+}
+
+/* .cls ul li{
+  display: ;
+  color: #3C218A;
+  
+  margin: 15px;
+}
+.cls ul li a{
+  text-decoration: none;
+  color: #C11515;
+  padding: 10px 20px;
+  background: #452D2D;
+  margin: 15px;
+} */
+.body,
+.mbody {
+  background: #000000;
+}
+
+.for {
+  padding: 5% 0;
+}
+
+.age {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0;
+}
+
+.img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%
+}
+
+.sub {
+  color: #FFFFFF;
+  background: #220213;
+  padding: 10% 0;
+  font-size: 200%;
+  text-align: center;
+  font-weight: 600;
+}
