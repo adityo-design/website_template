@@ -4,10 +4,13 @@
   box-sizing: border-box;
 }
 header{
-  background: #8F94D1;
+  background: #000000;
   text-align: center;
   padding: 20px 0;
   font-family: fantasy;
+  text-shadow: 2px 2px 2px #FF0000;
+  color: #fff;
+  font-size: 150%;
 
 }
 /*
@@ -81,9 +84,10 @@ iframe{
   display:inline-block;
   height: 100vh;
   width: 100%;
-  background: #2697D5;
+  background-image: url("megh.png");
+  background-repeat: none;
   padding: 0 30%;
-  padding-top: 45vh ;
+  padding-top: 30vh ;
 }
 .img{
   margin-top: 10%;
@@ -95,7 +99,7 @@ img{
   width: 90%;
   height: 50%;
   border-radius: 10%;
-  box-shadow: 0 0 40em #FFFFFF;
+  box-shadow: 0 0 20em #FFFFFF;
   border: 1px solid #6FA7FF;
 }
 .exp{
@@ -104,13 +108,15 @@ img{
   align-items: center;
   margin-top: 5%;
   color: #FFFFFF;
+  font-family: fantasy;
+  font-weight: 500;
   
 }
 .short_note{
   margin-left: 10%;
   width: 80%;
-  height: 300%;
   border: 1px solid #FFFFFF;
+  margin-top: 1%;
 }
 .enter{
   width: 50%;

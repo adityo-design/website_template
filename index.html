@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WELCOME</title>
-    <link rel="stylesheet" href="layoutme.css">
-    <script>
-        window.onload = function() {
-            // পাসওয়ার্ড চেক করার ফাংশন
-            function checkPassword() {
-                var password = document.getElementById("password").value;
-                if (password === "adityo") {  // আপনার পাসওয়ার্ড এখানে লিখুন
-                    document.getElementById("popup").style.display = "none"; // পপ-আপ লুকাবে
-                    document.getElementById("content").style.display = "block"; // মূল কন্টেন্ট দেখাবে
-                } else {
-                  document.getElementById("error").innerHTML = "❌Wrong Password.Try Again!";
-                   /* alert("❌Wrong Password.Try Again:");*/
-                }
-            }
-
-            // পাসওয়ার্ড চেক বোতনে ক্লিক করলে ফাংশন কল হবে
-            document.getElementById("loginButton").addEventListener("click", checkPassword);
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WELCOME</title>
+  <link rel="stylesheet" href="layoutme.css">
+  <script>
+    window.onload = function() {
+      // পাসওয়ার্ড চেক করার ফাংশন
+      function checkPassword() {
+        var password = document.getElementById("password").value;
+        if (password === "adityo") { // আপনার পাসওয়ার্ড এখানে লিখুন
+          document.getElementById("popup").style.display = "none"; // পপ-আপ লুকাবে
+          document.getElementById("content").style.display = "block"; // মূল কন্টেন্ট দেখাবে
+        } else {
+          document.getElementById("error").innerHTML = "❌Wrong Password.Try Again!";
+          /* alert("❌Wrong Password.Try Again:");*/
         }
-    </script>
+      }
+      
+      // পাসওয়ার্ড চেক বোতনে ক্লিক করলে ফাংশন কল হবে
+      document.getElementById("loginButton").addEventListener("click", checkPassword);
+    }
+  </script>
 </head>
-<body class="body1">
 
-    <!-- ফ্লোটিং পপ-আপ (পাসওয়ার্ড স্ক্রিন) -->
-    <div id="popup" class="pass">
-        <h2>INPUT PASSWORD</h2>
-        <input type="password" id="password" placeholder="PASSWORD">
-        <button id="loginButton">LogIn</button>
-        <p id="error"></p>
+<body class="body1">
+  
+  <!-- ফ্লোটিং পপ-আপ (পাসওয়ার্ড স্ক্রিন) -->
+  <div id="popup" class="pass">
+    <h2 style="text-shadow: 1px 1px 1px darkblue; color: darkslateblue;font-family: fantasy">INPUT PASSWORD</h2>&nbsp;&nbsp;&nbsp;
+    &downarrow;
+    <input type="password" id="password" placeholder="PASSWORD">
+    <br /><br>
+    <button id="loginButton" style="width: 50px; height: 20px;font-family: fantasy">LogIn</button>
+    <p id="error"></p>
+  </div>
+  <!-- মূল কন্টেন্ট (পাসওয়ার্ড দিলে দেখাবে) -->
+  <div id="content" style="display: none;" class="body2">
+    <header>
+      <h2>Light of Education</h2>
+      
+    </header>
+    <div class="img">
+      <img src="loed.png" alt="">
     </div>
-    <!-- মূল কন্টেন্ট (পাসওয়ার্ড দিলে দেখাবে) -->
-    <div id="content" style="display: none;" class="body2">
-        <header>
-    <h2>Light of Education</h2>
-    
-  </header>
- <div class="img">
-   <img src="loed.png" alt="">
- </div>
- <div class="exp">
-   <h5>Experience The Best Approach!</h5>
- </div>
- <div class="short_note">
-   
- </div>
- <div class="enter">
-   <p><a href="start.html">Enter</a></p>
- </div>
- </div>
+    <div class="exp">
+      <h5>Experience The Best Approach!</h5>
+    </div>
+    <div class="short_note">
+      
+    </div>
+    <div class="enter">
+      <p><a href="start.html">Enter&rightarrowtail;</a></p>
+    </div>
+  </div>
 </body>
+
 </html>

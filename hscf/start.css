@@ -5,15 +5,22 @@
   
 }
 
-header {
+.header1 {
   background: #34334B;
   color: #FFFFFF;
   width: 100%;
-  height: 15vh;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #FF0000;
+  font-size: 150%;
+  font-family: fantasy;
+  /* align-items: center; */
+  border: 2px solid #0000ff;
+  border-top: 0;
+  padding: 10% 2% 0 0;
 }
 
 .main {
@@ -28,14 +35,14 @@ header {
   justify-content: center;
   align-items: center;
   width: 97%;
-  height: vh;
   margin: 0 3%;
+  
   
 }
 
 .child {
   margin: 2vh 3%;
-  background: #118773;
+  background: #0C4F7E;
   width: 44%;
   height: 25vh;
   /* text-align: center; */
@@ -46,6 +53,8 @@ header {
   color: #fff;
   font-weight: 500;
   border-radius: 5%;
+  font-family: fantasy;
+  
 }
 
 a {
@@ -61,7 +70,10 @@ a {
 
 .header {
   display: flex;
-  background: #34334B;
+  background: #000000;
+  border: 2px solid #0004FF;
+  position: sticky;
+  top: 0;
 }
 
 .ssc li {
@@ -78,21 +90,32 @@ a {
 }
 
 .ssc li a {
-  background: #00FF37;
+  background: #000000;
   width: 100%;
   padding: 15% 5%;
   border-radius: 5%;
   font-weight: 600;
-  color: #000;
+  color: #fff;
   text-align: center;
   margin: 2%;
   font-size: 80%;
+  font-family: fantasy;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #FF0000;
+  border: 1px solid #FF0000;
+}
+
+
+.ssc li a:hover {
+  font-size: 80%;
+  color: #fff;
+  background: #000000;
 }
 
 .s {
   text-align: center;
   margin: 0%;
-  font-family: monospace;
+  font-family: fantasy;
   color: #fff;
   font-size: 100%;
 }
@@ -103,15 +126,20 @@ a {
 }
 
 .lul li a {
-  width: 100%;
-  height: 10vh;
-  background: #45312D;
-  margin: 2% 0;
+  width: 90%;
+  padding: 20px 0;
+  /* height: 10vh; */
+  background: #550909;
+  margin: 2% 5%;
   text-align: center;
   align-items: center;
   justify-content: center;
   display: flex;
   font-family: fantasy;
+  border: 1px solid #4034D1;
+  box-shadow: inset 5px 20px 25px #000,
+   inset -5px -20px 25px #000; 
+  border-radius: 4px;
 }
 
 /* .cls ul li{
