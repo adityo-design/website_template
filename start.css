@@ -38,6 +38,7 @@
   margin: 0 3%;
   
   
+  
 }
 
 .child {
@@ -54,6 +55,7 @@
   font-weight: 500;
   border-radius: 5%;
   font-family: fantasy;
+  border: 2px solid darkred;
   
 }
 
@@ -66,6 +68,7 @@ a {
   background: #D022A7;
   transition: 1s;
   font-size: 35px;
+  color: #000;
 }
 
 .header {
