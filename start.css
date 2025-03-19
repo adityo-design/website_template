@@ -9,6 +9,7 @@
   background: #34334B;
   color: #FFFFFF;
   width: 100%;
+  height: 70px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -20,14 +21,15 @@
   /* align-items: center; */
   border: 2px solid #0000ff;
   border-top: 0;
-  padding: 10% 2% 0 0;
+  border-top: 2px solid #0000ff;
+  padding: 30px 0 0 0;
 }
-
 .main {
   display: inline;
   justify-content: center;
   width: 100%;
   height: 100vh;
+  margin: 50px;
 }
 
 .parent {
@@ -37,15 +39,14 @@
   width: 97%;
   margin: 0 3%;
   
-  
-  
 }
 
 .child {
   margin: 2vh 3%;
-  background: #0C4F7E;
+  background: #000000;
   width: 44%;
   height: 25vh;
+  max-height: 150px;
   /* text-align: center; */
   font-size: 150%;
   display: flex;
@@ -53,10 +54,13 @@
   align-items: center;
   color: #fff;
   font-weight: 500;
-  border-radius: 5%;
+  border-radius: 50%;
   font-family: fantasy;
-  border: 2px solid darkred;
-  
+  border-top: 3px currentColor #1D00FF;
+  border-bottom: 3px currentColor #9700FF;
+  border-left: 9px groove #FF003F;
+  border-right: 9px groove #00FFB1;
+  overflow: hidden;
 }
 
 a {
@@ -65,10 +69,9 @@ a {
 }
 
 .child:hover {
-  background: #D022A7;
   transition: 1s;
   font-size: 35px;
-  color: #000;
+  color: #0000ff;
 }
 
 .header {
@@ -77,43 +80,56 @@ a {
   border: 2px solid #0004FF;
   position: sticky;
   top: 0;
+  overflow: hidden;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.ssc {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 0;
+  display: flex;
 }
 
 .ssc li {
   display: inline-flex;
   margin: 0;
   width: 100%;
-}
-
-.ssc {
-  width: 100%;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  display: flex;
+  height: 100%;
 }
 
 .ssc li a {
   background: #000000;
   width: 100%;
-  padding: 15% 5%;
+  /* padding: 15% 5%; */
   border-radius: 5%;
   font-weight: 600;
   color: #fff;
   text-align: center;
-  margin: 2%;
-  font-size: 80%;
+  margin: 0 0;
+  font-size: 100%;
   font-family: fantasy;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #FF0000;
   border: 1px solid #FF0000;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
 }
 
 
-.ssc li a:hover {
+/* .ssc li a:hover {
   font-size: 80%;
   color: #fff;
   background: #000000;
-}
+} */
 
 .s {
   text-align: center;
@@ -121,7 +137,13 @@ a {
   font-family: fantasy;
   color: #fff;
   font-size: 100%;
+  /* height: 40px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
+
 
 .cls {
   justify-content: center;
@@ -141,7 +163,7 @@ a {
   font-family: fantasy;
   border: 1px solid #4034D1;
   box-shadow: inset 5px 20px 25px #000,
-   inset -5px -20px 25px #000; 
+    inset -5px -20px 25px #000;
   border-radius: 4px;
 }
 
@@ -161,11 +183,10 @@ a {
 .body,
 .mbody {
   background: #000000;
+  font-family: fantasy;
 }
 
-.for {
-  padding: 5% 0;
-}
+
 
 .age {
   display: flex;
@@ -183,8 +204,10 @@ a {
 .sub {
   color: #FFFFFF;
   background: #220213;
-  padding: 10% 0;
-  font-size: 200%;
+  padding: 10px 0;
+  font-size: 150%;
+  font-family: fantasy;
   text-align: center;
   font-weight: 600;
+  letter-spacing: 5px
 }
